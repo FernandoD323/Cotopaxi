@@ -4,55 +4,250 @@
     box-sizing: border-box;
 }
 
-.prueba__title {
-    color: #000000;
-    font-family: 'Mont';
-    font-size: 22px;
-    font-weight: 900;
-    line-height: 28px;
-    text-align: center;
-}
 
-.header {
+header {
     /* width: 23.438rem;
     height: 4.375rem; */
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 0;
-    top: 2px;
     background-image: url("/src/assets/svg/mobile/header.svg");
     background-repeat: no-repeat
-
 }
 
-.footer {
+footer {
     width: 100%;
     height: 100%;
-    left: 0px;
-    margin-top: 962px;
-    border-radius: 0px;
+    position: absolute;
+    top: 962px;
     background-image: url("/src/assets/svg/mobile/footer.svg");
     background-repeat: no-repeat
 }
 
+.frame10 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    left: 26px;
+    top: 172px;
+
+}
+
+.frame1 {
+
+    width: 323px;
+    gap: 4px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.frame1__title {
+    color: #000000;
+    font-family: 'Mont';
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+}
+
+.frame1__text {
+    font-family: "Gotham Narrow";
+    font-size: 14px;
+    font-weight: 325;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+}
+
+.frame1__text__span {
+    font-weight: 700;
+}
+
+.frame1__text1 {
+    font-family: "Gotham Narrow";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 325;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.row1__frame15 {
+    height: 76px;
+    padding: 16px;
+    border: 1px solid #292C2E;
+    border-radius: 52px;
+
+}
+
+.row1__frame15__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.subtext {
+    line-height: 24px;
+}
+
+.row1__frame15__subtext {
+    font-family: "Gotham Narrow";
+    font-size: 14px;
+    font-weight: 325;
+    text-align: center;
+    color: #000000;
+}
+
+.frame36 {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    left: 26px;
+    top: 898px;
+}
+
+.frame36__button {
+    padding: 8px 24px;
+    width: 156px;
+}
+
+.previous {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #77787A;
+    background-color: #F1F1F1;
+    ;
+
+}
+
+.next {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    ;
+    background-color: #292C2E;
+}
+
 @media screen and (min-width:768px) {
-    .prueba__title {
+
+
+    .frame10 {
+        top: 260px;
+        gap: 32px;
+    }
+
+    .frame1 {
+        gap: 16px;
+    }
+
+    .frame1__title {
         font-size: 32px;
         line-height: 40px;
     }
+
+    .frame1__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .frame1__text1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .answers {
+        gap: 12px;
+    }
+
+    .row1 {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .row2 {
+        gap: 12px;
+        flex-direction: row;
+    }
+
+    .frame36 {
+        top: 760px;
+    }
+
+    .frame36__button {
+        width: 253px
+    }
+
     .header {
         background-image: url("/src/assets/svg/tablet/header\ tablet.svg");
     }
 
     .footer {
         background-image: url("/src/assets/svg/tablet/image\ 3.svg");
-        margin-top: 840px;
+        top: 840px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .prueba__title {}
+    .frame10 {
+        top: 296px;
+        gap: 56px;
+    }
+
+    .answers {
+        gap: 16px;
+    }
+
+    .frame36 {
+        gap: 40px;
+        top: 656px;
+    }
+
+    .frame36__button {
+        width: 253px
+    }
 
     .header {
         background-image: url("/src/assets/svg/desktop/header\ desk.svg");
@@ -60,7 +255,7 @@
 
     .footer {
         background-image: url("/src/assets/svg/desktop/footer\ desk.svg");
-        margin-top: 840px;
+        margin-top: 790px;
     }
 
 }

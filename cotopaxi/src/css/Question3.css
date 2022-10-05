@@ -1,0 +1,112 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mont-Heavy", "HCo Gotham Narrow", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    height: 6.563rem;
+}
+
+.header__1 {
+    display: flex;
+    padding: 0.5rem 1.25rem;
+    background-color: #2491C4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.75rem;
+    justify-content: space-between;
+}
+
+/* .header__navbar{
+    
+} */
+
+.--123 {
+    font-weight: 1;
+    margin-right: 0.18rem;
+}
+
+.--1234 {
+    font-weight: 600;
+}
+
+.navbar__conteiner {
+    display: flex;
+}
+
+.navbar__logo {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.navbar__links {
+    color: #25282A;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: 800;
+    cursor: pointer;
+    top: 2.125rem;
+
+}
+
+.navbar__photo {
+    width: 9.375rem;
+    height: 3.06rem;
+    margin-top: 0.8rem;
+}
+
+.navbar__icons {
+    width: 26px;
+    height: 46px;
+    top: 2.125rem;
+
+}
+
+/* .navbar__divison2{
+    margin-left: -250px;
+} */
+
+
+.prueba__title {
+    color: #000000;
+    font-family: 'Mont';
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+    @media screen and (min-width:768px) {
+        .prueba__title {          
+            font-size: 32px;
+            line-height: 40px;
+        }
+        
+    }
+
+    @media screen and (min-width:992px) {
+        .prueba__title {
+           
+
+        }
+        
+    }

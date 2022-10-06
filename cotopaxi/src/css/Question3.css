@@ -171,6 +171,71 @@ footer {
     background-color: #292C2E;
 }
 
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+    isolation: isolate;
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    left: 20px;
+    top: 88px;
+}
+
+.bar__line {
+
+    position: absolute;
+    top: 12px;
+    border: 1px solid #EAE5DF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 335px;
+}
+
+.bar__steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 4px;
+    gap: 4px;
+    width: 66.29px;
+    height: 44px;
+}
+
+.bar__steps__frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.step1 {
+
+    width: 16px;
+    height: 16px;
+    background: #EAE5DF;
+    left: 4px;
+    top: 4px;
+    border-radius: 50%;
+
+}
+
+.bar__steps__number {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
 @media screen and (min-width:768px) {
 
 
@@ -228,7 +293,26 @@ footer {
         background-image: url("/src/assets/svg/tablet/image\ 3.svg");
         top: 840px;
     }
+
+    .bar {
+
+        left: 26px;
+        top: 128px;
+    }
+
+    .bar__line {
+
+        width: 782px;
+        top: 12px;
+    }
+
+    .bar__steps {
+        width: 97.14px;
+        height: 44px;
+    }
+
 }
+
 
 @media screen and (min-width:992px) {
     .frame10 {
@@ -258,4 +342,20 @@ footer {
         margin-top: 790px;
     }
 
+    .bar {
+
+        left: 308px;
+        top: 136px;
+    }
+
+    .bar__line {
+        width: 748px;
+        top: 12px;
+    }
+
+    .bar__steps {
+        gap: 8px;
+        width: 104px;
+        height: 48px;
+    }
 }

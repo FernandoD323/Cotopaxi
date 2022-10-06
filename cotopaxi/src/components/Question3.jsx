@@ -6,6 +6,51 @@ export const Question3 = () => {
 
         <div>
             <header className="header"></header>
+            <div className="bar">
+                <div className="bar__line"></div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">1</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">2</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">3</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">4</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">5</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">6</div>
+                </div>
+                <div className="bar__steps">
+                    <div className="bar__steps__frame ">
+                        <div className="step1"></div>
+                    </div>
+                    <div className="bar__steps__number">7</div>
+                </div>
+            </div>
             <div className="frame10">
                 <div className="frame1">
                     <div className="frame1__title">How long is your trip?</div>

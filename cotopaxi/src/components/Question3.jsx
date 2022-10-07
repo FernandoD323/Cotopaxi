@@ -53,11 +53,11 @@ export const Question3 = () => {
             </div>
             <div className="frame10">
                 <div className="frame1">
-                    <div className="frame1__title">How long is your trip?</div>
+                    <div className="frame1__title">What do you need a new bag for?</div>
                     <div className="frame1__text"> <span className="frame1__text__span">Did you know? </span> While it depends on how light you pack, we recommend
                         around 25-35L for weekend trips and 35-50L for a week or more.
                     </div>
-                    <div className="frame1__text1">Choose all that appply</div>
+                    <div className="frame1__text1">Choose all that apply.</div>
                 </div>
                 <div className="answers">
                     <div className="row1">
@@ -79,7 +79,7 @@ export const Question3 = () => {
                     </div>
                     <div className="row2">
                         <div className="row1__frame15">
-                            <div className="row1__frame15__text subtext">
+                            <div className="row1__frame15__text">
                                 Flights
                             </div>
                             <div className="row1__frame15__subtext">
@@ -87,7 +87,7 @@ export const Question3 = () => {
                             </div>
                         </div>
                         <div className="row1__frame15">
-                            <div className="row1__frame15__text subtext">
+                            <div className="row1__frame15__text">
                                 Flights
                             </div>
                             <div className="row1__frame15__subtext">

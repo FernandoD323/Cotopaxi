@@ -53,7 +53,7 @@ export const Question3 = () => {
             </div>
             <div className="frame10">
                 <div className="frame1">
-                    <div className="frame1__title">What do you need a new bag for?</div>
+                    <div className="frame1__title">How will you be traveling with your bag?</div>
                     <div className="frame1__text"> <span className="frame1__text__span">Did you know? </span> While it depends on how light you pack, we recommend
                         around 25-35L for weekend trips and 35-50L for a week or more.
                     </div>

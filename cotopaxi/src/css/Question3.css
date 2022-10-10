@@ -84,7 +84,6 @@ footer {
     flex-direction: column;
     gap: 16px;
     width: 323px;
-
 }
 
 .row1 {
@@ -354,26 +353,55 @@ footer {
         gap: 56px;
     }
 
+    .frame1 {
+        width: 973px
+    }
+
+    .frame1__title{
+        width: 659px;
+    }
+
+    .frame1__text{
+        width: 973px
+    }
+
     .answers {
+        gap: 16px;
+        width: 891px;
+        top: 160px;
+        position:absolute;
+    }
+
+    .row1{
+        gap: 16px;
+    }
+
+    .row2{
         gap: 16px;
     }
 
     .frame36 {
         gap: 40px;
         top: 656px;
+        left: 507px;
+        width: 426px;
     }
 
     .frame36__button {
-        width: 253px
+        width: 193px
     }
 
+    .previous{
+        top: 4px;
+    }
     .header {
         background-image: url("/src/assets/svg/desktop/header\ desk.svg");
     }
 
     .footer {
         background-image: url("/src/assets/svg/desktop/footer\ desk.svg");
-        margin-top: 790px;
+        /* margin-top: 790px;
+        overflow: hidden; */
     }
 
     .bar {

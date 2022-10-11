@@ -9,34 +9,31 @@ header {
     /* width: 23.438rem;
     height: 4.375rem; */
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 75px;
     background-image: url("/src/assets/svg/mobile/header.svg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 962px;
+    height: 500px;
     background-image: url("/src/assets/svg/mobile/footer.svg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .frame10 {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    position: absolute;
-    left: 26px;
-    top: 172px;
     align-items: center;
 
 }
 
 .frame1 {
-
     width: 323px;
     gap: 4px;
     flex-direction: column;
@@ -82,7 +79,7 @@ footer {
 .answers {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     width: 323px;
 }
 
@@ -108,6 +105,11 @@ footer {
     width: inherit;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.row1__frame15:focus {
+    background-color: aqua;
 }
 
 .row1__frame15__text {
@@ -119,7 +121,6 @@ footer {
     text-transform: uppercase;
     color: #000000;
     line-height: 24px;
-    order: 0;
 }
 
 .row1__frame15__subtext {
@@ -129,21 +130,21 @@ footer {
     text-align: center;
     color: #000000;
     line-height: 16px;
-    order: 1;
-    top: 44px;
 }
 
 .frame36 {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 12px;
-    position: absolute;
-    left: 26px;
-    top: 898px;
+    justify-content: center;
+    align-items: center;
 }
 
 .frame36__button {
     padding: 8px 24px;
     width: 156px;
+   
 }
 
 .previous {
@@ -171,7 +172,6 @@ footer {
     letter-spacing: 0.01em;
     text-transform: capitalize;
     color: #FFFFFF;
-    ;
     background-color: #292C2E;
 }
 
@@ -179,23 +179,13 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
     gap: 17px;
     isolation: isolate;
-    position: absolute;
-    width: 335px;
-    height: 44px;
-    left: 20px;
-    top: 88px;
 }
 
 .bar__line {
-
-    position: absolute;
-    top: 12px;
     border: 1px solid #EAE5DF;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    width: 335px;
 }
 
 .bar__steps {
@@ -204,8 +194,6 @@ footer {
     align-items: center;
     padding: 0px 4px;
     gap: 4px;
-    width: 66.29px;
-    height: 44px;
 }
 
 .bar__steps__frame {
@@ -224,8 +212,6 @@ footer {
     width: 16px;
     height: 16px;
     background: #EAE5DF;
-    left: 4px;
-    top: 4px;
     border-radius: 50%;
 
 }
@@ -244,27 +230,23 @@ footer {
 
 
     .frame10 {
-        top: 260px;
         gap: 32px;
-        width: 782px;
     }
 
     .frame1 {
         gap: 16px;
-        width: inherit
+        width: 782px;
     }
 
     .frame1__title {
         font-size: 32px;
         line-height: 40px;
-        width: 549px;
     }
 
     .frame1__text {
         font-size: 16px;
         line-height: 24px;
         text-align: center;
-        width: 654px;
         order: 1;
 
     }
@@ -272,7 +254,6 @@ footer {
     .frame1__text1 {
         font-size: 16px;
         line-height: 24px;
-        width: 146px;
         order: 2;
     }
 
@@ -285,15 +266,13 @@ footer {
     .row1 {
         flex-direction: row;
         gap: 12px;
-        width: inherit;
-        align-self: stretch;
+
     }
 
     .row2 {
         flex-direction: row;
         gap: 12px;
-        width: inherit;
-        align-self: stretch;
+
     }
 
     .row1__frame15 {
@@ -307,8 +286,8 @@ footer {
     } */
 
     .frame36 {
-        top: 760px;
-        left: 158px;
+        /* top: 760px;
+        left: 158px; */
     }
 
     .frame36__button {
@@ -326,8 +305,8 @@ footer {
 
     .bar {
 
-        left: 26px;
-        top: 128px;
+        /* left: 26px;
+        top: 128px; */
         width: 782px;
     }
 
@@ -348,52 +327,44 @@ footer {
 @media screen and (min-width:992px) {
 
     .frame10 {
-        width: 1359px;
-        top: 296px;
-        gap: 56px;
+        gap: 40px;
     }
 
     .frame1 {
         width: 973px
     }
 
-    .frame1__title{
-        width: 659px;
-    }
-
-    .frame1__text{
-        width: 973px
-    }
-
     .answers {
         gap: 16px;
-        width: 891px;
-        top: 160px;
-        position:absolute;
     }
 
-    .row1{
+    .row1 {
         gap: 16px;
     }
 
-    .row2{
+    .row1__frame15{
+        width: 286.33px;
+    }
+
+    .row2 {
         gap: 16px;
     }
 
     .frame36 {
         gap: 40px;
-        top: 656px;
-        left: 507px;
-        width: 426px;
+        /* top: 656px;
+        left: 507px; */
+
     }
 
     .frame36__button {
         width: 193px
     }
 
-    .previous{
+    .previous {
         top: 4px;
     }
+
     .header {
         background-image: url("/src/assets/svg/desktop/header\ desk.svg");
     }
@@ -406,13 +377,13 @@ footer {
 
     .bar {
 
-        left: 308px;
-        top: 136px;
+        /* left: 308px;
+        top: 136px; */
     }
 
     .bar__line {
         width: 748px;
-        top: 12px;
+        /* top: 12px; */
     }
 
     .bar__steps {

@@ -1,8 +1,13 @@
 
-import React from 'react'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
 
 export const Results = () => {
+
     return (
+
         <div>
             <header className="header"></header>
             <div className="img">
@@ -131,6 +136,56 @@ export const Results = () => {
                 </div>
             </div>
 
+            <div className='slider'>
+                <div className='slider__title'>More gear you’ll love</div>
+                <Swiper
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide>
+                        <div className='option1__slider'>
+                            <div className='option1__frame36'>
+                                <div className='option1__slider__bg'>
+                                    <div className='option1__slider__img'></div>
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='option1__content__slider'>
+                                <div className="top">
+                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                    <div className='top__text2'>$33</div>
+                                </div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='option1__slider'>
+                            <div className='option1__frame36'>
+                                <div className='option1__slider__bg'>
+                                    <div className='option1__slider__img'></div>
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='option1__content__slider'>
+                                <div className="top">
+                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                    <div className='top__text2'>$33</div>
+                                </div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                </Swiper>
+            </div>
+
             <div className="frame80">
                 <div className="frame30">
                     <div className='frame30__text'>Looking for something else?</div>
@@ -153,16 +208,21 @@ export const Results = () => {
                                 <div className="frame61__frame19">
                                     <div className="frame61__frame19__frame62">
                                         <div className='frame61__frame19__frame62__title'>Email</div>
-                                        <div className='frame61__frame19__frame62__input' placeholder='Your Email'></div>
+                                        <div className='frame61__frame19__frame62__input'>
+                                            <div className='input__placeholder'>Your emal </div>
+                                        </div>
+                                        <div className="frame61__frame19__checkbox">
+                                            <div className="frame61__frame19__checkbox__check"></div>
+                                            <div className="frame61__frame19__checkbox__text">I agree with the <span className='terms'>Privacy Policy</span> and the website's <span className='terms'>Terms of Conditions</span></div>
+
+                                        </div>
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

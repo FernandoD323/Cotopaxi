@@ -68,16 +68,13 @@ header {
 .option1 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 16px;
     width: 323px;
     height: 448px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .option1__frame36 {
-    width: 323px;
     height: 358px;
     isolation: isolate;
 }
@@ -94,33 +91,36 @@ header {
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-    order: 1;
+}
 
+.option1__frame36__img2 {
+    width: 254.74px;
+    height: 282.35px;
+    background-image: url("/src/assets/svg/imgs/product-image1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
 }
 
 .option1__frame36__img1 {
     background: #F2F2F2;
-    height: 358px;
-    width: 323px;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: center;
     margin: 0 auto;
 
 }
 
 .option1__frame36__match {
     width: 291px;
-    height: 22px;
     gap: 56px;
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
 }
 
 .match__great {
     width: 130px;
-    height: 20px;
     font-family: 'Mont';
     font-style: normal;
     font-weight: 900;
@@ -133,17 +133,13 @@ header {
 
 .frame37 {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 8px;
-    width: 105px;
-    height: 22px;
 }
 
 .frame37__match {
     width: 85px;
-    height: 22px;
     font-family: 'Gotham Narrow';
     font-style: normal;
     font-weight: 325;
@@ -156,7 +152,6 @@ header {
 
 .frame37__button {
     height: 12px;
-    width: 12px;
 }
 
 .frame37__button__group {
@@ -173,7 +168,7 @@ header {
 
 .line1 {
     background: #FFFFFF;
-    width: 6.000000000000005px;
+    width: 6px;
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
 }
@@ -189,7 +184,7 @@ header {
     border-radius: 0px;
     padding: 8px 24px;
     background: #292C2E;
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
@@ -269,7 +264,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 
@@ -293,4 +287,235 @@ header {
     line-height: 24px;
     letter-spacing: 1px;
     color: #000000;
+}
+
+.hikes {
+    font-style: italic;
+}
+
+.frame29 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 26px;
+    gap: 24px;
+    height: 632px;
+    background: #F2F2F2;
+}
+
+.frame79 {
+    height: 304px;
+    width: 323px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frame79__img {
+    height: 235px;
+    width: 273px;
+    background-image: url("/src/assets/svg/imgs/image\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.frame28 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.frame38 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 323px;
+    height: 88px;
+}
+
+.frame38__text1 {
+
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.size {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.frame28__text {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.frame28__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    width: 323px;
+    height: 40px;
+    background: #292C2E;
+}
+
+.frame28__button__text {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.frame80 {
+    height: 232px;
+    width: 323px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame30 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    width: 265px;
+    height: 88px;
+}
+
+.frame30__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24px;
+    color: #25282A;
+}
+
+.frame30__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    width: 193px;
+    height: 40px;
+    background: #292C2E;
+}
+
+.frame30__button__text {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.email {
+    height: 368px;
+    width: 375px;
+}
+
+.email__frame66 {
+    width: 323px;
+    height: 288px;
+}
+
+.email__bg {
+    height: 368px;
+    background: #4C4F53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.frame61 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    height: 224px;
+}
+
+.frame61__frame60 {
+    width: 323px;
+    height: 116px;
+}
+
+.frame61__frame60__text1 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.frame61__frame60__text2 {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.frame61__frame19 {
+    width: 323px;
+    height: 100px;
+}
+
+.frame61__frame19__frame62__title {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.frame61__frame19__frame62__input {
+
 }

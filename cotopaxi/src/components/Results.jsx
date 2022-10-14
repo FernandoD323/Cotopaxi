@@ -2,102 +2,116 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { useEffect, useState } from 'react';
 
 
 export const Results = () => {
 
+    const [width, setWidth] = useState(window.innerWidth)
+    const [height, setHeight] = useState(window.innerHeight)
+
+    const slider = () => {
+        setWidth(window.innerWidth);
+        setHeight(window.innerHeight)
+    }
+
+    useEffect(() => {
+        window.addEventListener("resize", slider);
+
+        return () => {
+            window.removeEventListener("resize", slider)
+        }
+    })
+
+    let sliders = 1
+
+    if (width >= 768) {
+        sliders = 2
+    }
+
+
     return (
 
         <div>
+
             <header className="header"></header>
+
             <div className="img">
                 <div>
 
                 </div>
                 <div className='text'>
-                    We found the best bag for you ss!
+                    We found the best bag for you!
                 </div>
             </div>
             <div className='text1'>
                 Based on your answers, we’ve handpicked the best bag for your upcoming travels.
             </div>
 
-            <div className='option1'>
-                <div className='option1__frame36'>
-                    <div className=''>
-                        <div className='option1__frame36__img1' >
-                            <div className='option1__frame36__match'>
-                                <div className='match__great'>
-                                    the Best match
-                                </div>
-                                <div className='frame37'>
-                                    <div className='frame37__match'>100% match</div>
-                                    <div className='frame37__button'>
-                                        <div className='frame37__button__elipse'>
-                                            <div className='frame37__button__group'>
-                                                <div className='line1'></div>
-                                                <div className='line2'></div>
+            <div className='conteiner__options'>
+                <div className='option1'>
+                    <div className='option1__frame36'>
+                        <div className=''>
+                            <div className='option1__frame36__img1' >
+                                <div className='option1__frame36__match'>
+                                    <div className='match__great'>
+                                        the Best match
+                                    </div>
+                                    <div className='frame37'>
+                                        <div className='frame37__match'>100% match</div>
+                                        <div className='frame37__button'>
+                                            <div className='frame37__button__elipse'>
+                                                <div className='frame37__button__group'>
+                                                    <div className='line1'></div>
+                                                    <div className='line2'></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className='option1__frame36__img' >
-                            </div>
-                            <div className='button'>
-                                <div className="button__text">Choose Color</div>
+                                <div className='option1__frame36__img' >
+                                </div>
+                                <div className='button'>
+                                    <div className="button__text">Choose Color</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div className='option1__content'>
-                    <div className="top">
-                        <div className='top__text1'>Luzon 18L Backpack - Del Día</div>
-                        <div className='top__text2'>$60</div>
+                    <div className='option1__content'>
+                        <div className="top">
+                            <div className='top__text1'>Luzon 18L Backpack - Del Día</div>
+                            <div className='top__text2'>$60</div>
+                        </div>
+                        <div className="text3">Great for <span className='hikes'>Hikes</span></div>
                     </div>
-                    <div className="text3">Great for <span className='hikes'>Hikes</span></div>
                 </div>
-            </div>
-            <div className='option1'>
-                <div className='option1__frame36'>
-                    <div className=''>
-                        <div className='option1__frame36__img1' >
-                            <div className='option1__frame36__match'>
-                                <div className='match__great'>
-                                    another great option for you
-                                </div>
-                                <div className='frame37'>
-                                    <div className='frame37__match'>80% match</div>
-                                    <div className='frame37__button'>
-                                        <div className='frame37__button__elipse'>
-                                            <div className='frame37__button__group'>
-                                                <div className='line1'></div>
-                                                <div className='line2'></div>
-                                            </div>
-                                        </div>
+
+
+
+
+                <div className='option1'>
+                    <div className='option1__frame36'>
+                        <div className='option1__frame36__img'>
+                            <div className='option1__frame36__img__bg'>
+                                <div className='option1__frame36__img__product'>
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className='option1__frame36__img2' >
-                            </div>
-                            <div className='button'>
-                                <div className="button__text">Choose Color</div>
-                            </div>
                         </div>
                     </div>
-                </div>
 
-
-                <div className='option1__content'>
-                    <div className="top">
-                        <div className='top__text1'>Luzon 18L Backpack - Del Día</div>
-                        <div className='top__text2'>$80</div>
+                    <div className='option1__content'>
+                        <div className="top">
+                            <div className='top__text1'>Luzon 18L Backpack - Del Día</div>
+                            <div className='top__text2'>$80</div>
+                        </div>
+                        <div className="text3">Great for <span className='hikes'>Hikes</span></div>
                     </div>
-                    <div className="text3">Great for <span className='hikes'>Hikes</span></div>
                 </div>
             </div>
 
@@ -139,10 +153,8 @@ export const Results = () => {
             <div className='slider'>
                 <div className='slider__title'>More gear you’ll love</div>
                 <Swiper
-                    spaceBetween={0}
-                    slidesPerView={1}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    spaceBetween={10}
+                    slidesPerView={sliders}
                 >
                     <SwiperSlide>
                         <div className='option1__slider'>
@@ -214,15 +226,19 @@ export const Results = () => {
                                         <div className="frame61__frame19__checkbox">
                                             <div className="frame61__frame19__checkbox__check"></div>
                                             <div className="frame61__frame19__checkbox__text">I agree with the <span className='terms'>Privacy Policy</span> and the website's <span className='terms'>Terms of Conditions</span></div>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="email__frame66__button">
+                            <div className="email__frame66__button__text">sign me up</div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <footer></footer>
         </div >
     )
 }

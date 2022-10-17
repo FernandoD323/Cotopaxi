@@ -29,7 +29,7 @@ export const Results = () => {
         sliders = 2
     }
 
-    if (width >= 1000) {
+    if (width >= 1440) {
         sliders = 3
     }
 
@@ -163,75 +163,6 @@ export const Results = () => {
                 >
 
                     <SwiperSlide>
-                        <div className='slider__frame '>
-                            <div className='option1__slider'>
-                                <div className='option1__frame36'>
-                                    <div className='option1__slider__bg'>
-                                        <div className='option1__slider__img'><div className='button'>
-                                            <div className="button__text">Choose Color</div>
-                                        </div></div>
-
-                                    </div>
-                                </div>
-                                <div className='option1__content__slider'>
-                                    <div className="top">
-                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                        <div className='top__text2'>$33</div>
-                                    </div>
-                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='slider__frame '>
-                            <div className='option1__slider'>
-                                <div className='option1__frame36'>
-                                    <div className='option1__slider__bg'>
-                                        <div className='option1__slider__img'><div className='button'>
-                                            <div className="button__text">Choose Color</div>
-                                        </div></div>
-
-                                    </div>
-                                </div>
-                                <div className='option1__content__slider'>
-                                    <div className="top">
-                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                        <div className='top__text2'>$33</div>
-                                    </div>
-                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className='slider__frame '>
-                            <div className='option1__slider'>
-                                <div className='option1__frame36'>
-                                    <div className='option1__slider__bg'>
-                                        <div className='option1__slider__img'><div className='button'>
-                                            <div className="button__text">Choose Color</div>
-                                        </div></div>
-
-                                    </div>
-                                </div>
-                                <div className='option1__content__slider'>
-                                    <div className="top">
-                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                        <div className='top__text2'>$33</div>
-                                    </div>
-                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-
-                </Swiper>
-
-                <div className="slider__frame72">
-                    <div className='slider__frame '>
                         <div className='option1__slider'>
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
@@ -249,14 +180,85 @@ export const Results = () => {
                                 <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                             </div>
                         </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='option1__slider'>
+                            <div className='option1__frame36'>
+                                <div className='option1__slider__bg'>
+                                    <div className='option1__slider__img'><div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+                            <div className='option1__content__slider'>
+                                <div className="top">
+                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                    <div className='top__text2'>$33</div>
+                                </div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+
+                        <div className='option1__slider'>
+                            <div className='option1__frame36'>
+                                <div className='option1__slider__bg'>
+                                    <div className='option1__slider__img'><div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+                            <div className='option1__content__slider'>
+                                <div className="top">
+                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                    <div className='top__text2'>$33</div>
+                                </div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+
+                </Swiper>
+                <div className="slider__division">
+                    <div className='option1__slider1'>
+                        <div className='option1__frame36'>
+                            <div className='option1__slider__bg'>
+                                <div className='option1__slider__img'><div className='button'>
+                                    <div className="button__text">Choose Color</div>
+                                </div></div>
+
+                            </div>
+                        </div>
+                        <div className='option1__content__slider'>
+                            <div className="top">
+                                <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                <div className='top__text2'>$33</div>
+                            </div>
+                            {/* <div className="text3">Great for <span className='hikes'>Climbing</span></div> */}
+                        </div>
                     </div>
-                    <div className="frame80">
+
+                    <div className="frame81">
                         <div className="frame30">
                             <div className='frame30__text'>Looking for something else?</div>
                             <div className='frame30__button'>
                                 <div className='frame30__button__text'> Start Over</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="frame80">
+                <div className="frame30">
+                    <div className='frame30__text'>Looking for something else?</div>
+                    <div className='frame30__button'>
+                        <div className='frame30__button__text'> Start Over</div>
                     </div>
                 </div>
             </div>

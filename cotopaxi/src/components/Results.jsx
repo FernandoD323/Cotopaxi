@@ -29,6 +29,10 @@ export const Results = () => {
         sliders = 2
     }
 
+    if (width >= 1000) {
+        sliders = 3
+    }
+
 
     return (
 
@@ -152,60 +156,112 @@ export const Results = () => {
 
             <div className='slider'>
                 <div className='slider__title'>More gear you’ll love</div>
+
                 <Swiper
-                    spaceBetween={10}
+                    spaceBetween={0}
                     slidesPerView={sliders}
                 >
+
                     <SwiperSlide>
-                        <div className='option1__slider'>
-                            <div className='option1__frame36'>
-                                <div className='option1__slider__bg'>
-                                    <div className='option1__slider__img'></div>
-                                    <div className='button'>
-                                        <div className="button__text">Choose Color</div>
+                        <div className='slider__frame '>
+                            <div className='option1__slider'>
+                                <div className='option1__frame36'>
+                                    <div className='option1__slider__bg'>
+                                        <div className='option1__slider__img'><div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div></div>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div className='option1__content__slider'>
-                                <div className="top">
-                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                    <div className='top__text2'>$33</div>
+                                <div className='option1__content__slider'>
+                                    <div className="top">
+                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                        <div className='top__text2'>$33</div>
+                                    </div>
+                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                                 </div>
-                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='option1__slider'>
-                            <div className='option1__frame36'>
-                                <div className='option1__slider__bg'>
-                                    <div className='option1__slider__img'></div>
-                                    <div className='button'>
-                                        <div className="button__text">Choose Color</div>
+                        <div className='slider__frame '>
+                            <div className='option1__slider'>
+                                <div className='option1__frame36'>
+                                    <div className='option1__slider__bg'>
+                                        <div className='option1__slider__img'><div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div></div>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div className='option1__content__slider'>
-                                <div className="top">
-                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                    <div className='top__text2'>$33</div>
+                                <div className='option1__content__slider'>
+                                    <div className="top">
+                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                        <div className='top__text2'>$33</div>
+                                    </div>
+                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                                 </div>
-                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                             </div>
                         </div>
                     </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='slider__frame '>
+                            <div className='option1__slider'>
+                                <div className='option1__frame36'>
+                                    <div className='option1__slider__bg'>
+                                        <div className='option1__slider__img'><div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div></div>
+
+                                    </div>
+                                </div>
+                                <div className='option1__content__slider'>
+                                    <div className="top">
+                                        <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                        <div className='top__text2'>$33</div>
+                                    </div>
+                                    <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
 
                 </Swiper>
-            </div>
 
-            <div className="frame80">
-                <div className="frame30">
-                    <div className='frame30__text'>Looking for something else?</div>
-                    <div className='frame30__button'>
-                        <div className='frame30__button__text'> Start Over</div>
+                <div className="slider__frame72">
+                    <div className='slider__frame '>
+                        <div className='option1__slider'>
+                            <div className='option1__frame36'>
+                                <div className='option1__slider__bg'>
+                                    <div className='option1__slider__img'><div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+                            <div className='option1__content__slider'>
+                                <div className="top">
+                                    <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                    <div className='top__text2'>$33</div>
+                                </div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="frame80">
+                        <div className="frame30">
+                            <div className='frame30__text'>Looking for something else?</div>
+                            <div className='frame30__button'>
+                                <div className='frame30__button__text'> Start Over</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
 
             <div className='email'>
                 <div className='email__bg'>
@@ -217,19 +273,20 @@ export const Results = () => {
                                     match directly to your inbox and be the first to learn about new models releases
                                     and more.
                                 </div>
-                                <div className="frame61__frame19">
-                                    <div className="frame61__frame19__frame62">
-                                        <div className='frame61__frame19__frame62__title'>Email</div>
-                                        <div className='frame61__frame19__frame62__input'>
-                                            <div className='input__placeholder'>Your emal </div>
-                                        </div>
-                                        <div className="frame61__frame19__checkbox">
-                                            <div className="frame61__frame19__checkbox__check"></div>
-                                            <div className="frame61__frame19__checkbox__text">I agree with the <span className='terms'>Privacy Policy</span> and the website's <span className='terms'>Terms of Conditions</span></div>
-                                        </div>
+                            </div>
+                            <div className="frame61__frame19">
+                                <div className="frame61__frame19__frame62">
+                                    <div className='frame61__frame19__frame62__title'>Email</div>
+                                    <div className='frame61__frame19__frame62__input'>
+                                        <div className='input__placeholder'>Your emal </div>
+                                    </div>
+                                    <div className="frame61__frame19__checkbox">
+                                        <div className="frame61__frame19__checkbox__check"></div>
+                                        <div className="frame61__frame19__checkbox__text">I agree with the <span className='terms'>Privacy Policy</span> and the website's <span className='terms'>Terms of Conditions</span></div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div className="email__frame66__button">

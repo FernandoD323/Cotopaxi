@@ -79,18 +79,18 @@ header {
 }
 
 .option1__frame36 {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     isolation: isolate;
-    height: 358px;
+    height: 358px; */
 }
 
 .option1__frame36__img {
     width: 323px;
     height: 358px;
-    width: inherit;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -201,6 +201,7 @@ header {
     justify-content: center;
     align-items: flex-end;
     margin: 0 auto;
+    margin: 240px auto 0px;
 }
 
 .button__text {
@@ -216,10 +217,17 @@ header {
 }
 
 
-.option1__content {
+.option1__content__slider {
+    display: flex;
     gap: 4px;
     width: 323px;
     height: 74px;
+}
+
+.top {
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
 }
 
 .top__text1 {
@@ -319,13 +327,13 @@ header {
     gap: 24px;
     height: 632px;
     background: #F2F2F2;
-    margin: 24px auto;
+    margin: 28px auto 24px;
 }
 
 .frame79 {
     height: 304px;
     width: 323px;
-    margin: 0 auto;
+    margin: 24px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,6 +351,7 @@ header {
 
 .frame28 {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 16px;
 }
@@ -352,7 +361,7 @@ header {
     flex-direction: column;
     gap: 8px;
     width: 323px;
-    height: 88px;
+    /* height: 88px; */
 }
 
 .frame38__text1 {
@@ -389,7 +398,7 @@ header {
     align-items: center;
     padding: 8px 24px;
     width: 323px;
-    height: 40px;
+    /* height: 40px; */
     background: #292C2E;
 }
 
@@ -408,7 +417,7 @@ header {
 .frame80 {
     height: 232px;
     width: 323px;
-    margin: 0px auto 24px;
+    margin: 48px auto 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -469,6 +478,10 @@ header {
 }
 
 .email__frame66 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 323px;
     height: 288px;
 }
@@ -493,6 +506,9 @@ header {
 }
 
 .frame61__frame60 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 323px;
     height: 116px;
 }
@@ -520,8 +536,22 @@ header {
 }
 
 .frame61__frame19 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.frame61__frame19__frame62 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     width: 323px;
-    height: 100px;
+    gap: 8px;
+
 }
 
 .frame61__frame19__frame62__title {
@@ -536,6 +566,7 @@ header {
 }
 
 .frame61__frame19__frame62__input {
+    width: 323px;
     height: 42px;
     border: 1px solid #D9D9D9;
     background: #FFFFFF;
@@ -589,12 +620,12 @@ header {
 
 .slider {
     margin: 48px auto 24px;
-    height: 504px;
-
+    height: 736px;
 }
 
 .slider__title {
-    width: 209px;
+
+    text-align: center;
     font-family: 'Mont';
     font-style: normal;
     font-weight: 900;
@@ -602,12 +633,13 @@ header {
     line-height: 24px;
     color: #000000;
     margin: 24px auto 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.5px;
     text-transform: capitalize;
 
+}
+
+.slider__frame {
+    margin: 0 26px;
 }
 
 .option1__slider {
@@ -615,14 +647,20 @@ header {
     flex-direction: column;
     height: 416px;
     width: 239px;
+    gap: 16px;
     margin: 0 auto;
 }
 
 .option1__slider__bg {
     height: 326px;
-    width: 239px;
     background: #F2F2F2;
     margin: 0 auto;
+    /* width: 239px; */
+    background: #F2F2F2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .option1__slider__img {
@@ -632,12 +670,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0px auto 0;
+    margin: 30px auto 0px;
 }
+
 
 .option1__frame36__slider {
     height: 326px;
@@ -646,9 +681,10 @@ header {
 
 
 .option1__content__slider {
-
+    display: flex;
+    flex-direction: column;
     gap: 4px;
-    width: 239px;
+    /* width: 239px; */
     /* height: 74px; */
 }
 
@@ -662,7 +698,20 @@ header {
     width: 193px;
     height: 40px;
     background: #F1F1F1;
-    margin: 0 auto;
+
+
+}
+
+.email__frame66__button__text {
+    font-family: 'Gotham Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #77787A;
 }
 
 footer {
@@ -744,6 +793,342 @@ footer {
         font-size: 22px;
         line-height: 32px;
         text-transform: capitalize;
-    
+
     }
+
+    .frame29 {
+        padding: 56px 26px;
+        gap: 40px;
+    }
+
+    .frame28 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .frame38 {
+        width: 649px
+    }
+
+    .frame38__text1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .size {
+        font-size: 24px;
+        line-height: 28px;
+
+    }
+
+    .frame28__text {
+        font-size: 14px;
+        width: 649px;
+    }
+
+    .frame28__button {
+        width: 193px;
+    }
+
+
+    .slider {
+        height: 1188px;
+    }
+
+    .slider__title {
+        font-size: 32px;
+        line-height: 40px;
+        margin: 32px auto 24px;
+    }
+
+    .option1__slider {
+        width: 385px;
+        height: 514px;
+    }
+
+    .option1__slider__bg {
+        height: 424px;
+    }
+
+    .option1__slider__img {
+        width: 303.64px;
+        height: 334.4px;
+        margin: 39px auto 0px;
+        background-image: url("/src/assets/svg/Results/tablet/product-image.svg");
+
+
+
+    }
+
+    .button {
+        margin: 329px auto 0px;
+    }
+
+    .option1__content__slider {
+        /* width: 385px; */
+
+    }
+
+    .slider__frame72 {
+        display: flex;
+        margin: 32px auto;
+        gap: 12px;
+        /* align-items: center; */
+    }
+
+    .frame80 {
+        width: 385px;
+        height: 514px;
+        margin: 0 auto;
+    }
+
+    .frame30 {
+        gap: 190px
+    }
+
+    .frame30__text {
+        width: 204px;
+        /* height: 60px; */
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .email__bg {
+        height: 394px;
+    }
+
+    .email__frame66 {
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 684px;
+        height: 282px;
+
+    }
+
+
+    .frame61 {
+        width: 684px;
+        gap: 16px;
+    }
+
+    .frame61__frame19 {
+        width: 426px;
+        gap: 8px;
+    }
+
+    .frame61__frame60 {
+        width: 684px;
+        gap: 16px;
+    }
+
+    .frame61__frame19__frame62 {
+        width: 426px;
+    }
+
+
+    .frame61__frame60__text1 {
+        width: 684px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .frame61__frame19__frame62__input {
+        width: 426px;
+    }
+
+    .frame61__frame19__checkbox__text {
+        line-height: 24px;
+
+    }
+
+    .frame61__frame19__checkbox {
+        width: 383px;
+
+    }
+
+    footer {
+        background-image: url("/src/assets/svg/Results/tablet/image\ 3.svg");
+    }
+
+
+
+}
+
+@media screen and (min-width:992px) {
+
+    .img {
+        height: 311px;
+    }
+
+    .text {
+        width: 914px;
+        font-size: 56px;
+    }
+
+    .text1 {
+        margin: 48px 373px 32px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .conteiner__options {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+        margin: 0 26px;
+    }
+
+    .option1 {
+        width: 385px;
+        height: 514px;
+        margin: 0 auto;
+
+    }
+
+    .option1__frame36__img1 {}
+
+    .frame41 {
+        height: 360px;
+        width: 1126px;
+        padding: 0px;
+        max-width: 100%;
+        gap: 40px;
+    }
+
+    .frame41__img {
+        width: 543px;
+        height: 368px;
+    }
+
+    /* .frame41__img {
+        gap: 16px
+    } */
+
+    .frame41__frame40 {
+        gap: 16px;
+        width: 543px;
+        margin: 92px 0;
+        /* margin-right: 28px; */
+
+    }
+
+    .frame41__frame40__text1 {
+        font-size: 22px;
+        line-height: 32px;
+        text-transform: capitalize;
+
+    }
+
+    .frame29 {
+        flex-direction: row;
+        padding: 104px 182px;
+        gap: 80px;
+    }
+
+    .frame28 {
+        align-items: flex-start;
+        text-align: left;
+        gap: 40px;
+    }
+
+    /* .frame38 {
+        width: 649px
+    } */
+
+    .frame38__text1 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .size {
+        font-size: 24px;
+        line-height: 28px;
+
+    }
+
+    .frame28__text {
+        font-size: 16px;
+        line-height: 36px;
+
+    }
+
+    .slider {
+        width: 1361px;
+    }
+
+    .slider__title {
+
+        margin: 74px auto 24px;
+    }
+
+    .option1__slider {
+        width: 385px;
+        height: 514px;
+    }
+
+    .option1__slider__bg {
+        height: 424px;
+    }
+
+    .option1__slider__img {
+        width: 303.64px;
+        height: 334.4px;
+        margin: 39px auto 0px;
+        background-image: url("/src/assets/svg/Results/tablet/product-image.svg");
+
+
+
+    }
+
+    .button {
+        margin: 329px auto 0px;
+    }
+
+    .option1__content__slider {
+        /* width: 385px; */
+
+    }
+
+    .slider__frame72 {
+        display: flex;
+        margin: 32px auto;
+        gap: 12px;
+        /* align-items: center; */
+    }
+
+    .frame80 {
+        width: 385px;
+        height: 514px;
+        margin: 0 auto;
+    }
+
+    .frame30 {
+        gap: 190px
+    }
+
+    .frame30__text {
+        width: 204px;
+        /* height: 60px; */
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .frame61 {
+        height: 210px
+    }
+
+    .frame61__frame60__text2 {
+        line-height: 24px;
+    }
+
+    footer {
+        background-image: url("/src/assets/svg/Results/tablet/image\ 3.svg");
+    }
+
+
+
 }

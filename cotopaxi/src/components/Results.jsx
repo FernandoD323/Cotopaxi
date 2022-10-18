@@ -23,7 +23,7 @@ export const Results = () => {
         }
     })
 
-    let sliders = 1
+    let sliders = 1.5
 
     if (width >= 768) {
         sliders = 2
@@ -51,52 +51,47 @@ export const Results = () => {
             <div className='text1'>
                 Based on your answers, we’ve handpicked the best bag for your upcoming travels.
             </div>
-
-            <div className='conteiner__options'>
-                <div className='option1'>
+            <div className="card__products">
+                <div className='option1__slider'>
                     <div className='option1__frame36'>
-                        <div className=''>
-                            <div className='option1__frame36__img1' >
-                                <div className='option1__frame36__match'>
-                                    <div className='match__great'>
-                                        the Best match
-                                    </div>
-                                    <div className='frame37'>
-                                        <div className='frame37__match'>100% match</div>
-                                        <div className='frame37__button'>
-                                            <div className='frame37__button__elipse'>
-                                                <div className='frame37__button__group'>
-                                                    <div className='line1'></div>
-                                                    <div className='line2'></div>
-                                                </div>
+                        <div className='option1__slider__bg'>
+                            <div className='option1__frame36__match'>
+                                <div className='match__great'>
+                                    another great option for you
+                                </div>
+                                <div className='frame37'>
+                                    <div className='frame37__match'>80% match</div>
+                                    <div className='frame37__button'>
+                                        <div className='frame37__button__elipse'>
+                                            <div className='frame37__button__group'>
+                                                <div className='line1'></div>
+                                                <div className='line2'></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className='option1__frame36__img' >
-                                </div>
-                                <div className='button'>
-                                    <div className="button__text">Choose Color</div>
+                            </div>
+                            <div className='option1__slider__img'>
+                                <div>
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-
-
-                    <div className='option1__content'>
+                    <div className='option1__content__slider'>
                         <div className="top">
-                            <div className='top__text1'>Luzon 18L Backpack - Del Día</div>
-                            <div className='top__text2'>$60</div>
+                            <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                            <div className='top__text2'>$33</div>
                         </div>
-                        <div className="text3">Great for <span className='hikes'>Hikes</span></div>
+                        <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                     </div>
                 </div>
+            </div>
 
-
-
-
-                <div className='option1'>
+            {/* <div className='option1'>
                     <div className='option1__frame36'>
                         <div className='option1__frame36__img'>
                             <div className='option1__frame36__img__bg'>
@@ -117,7 +112,7 @@ export const Results = () => {
                         <div className="text3">Great for <span className='hikes'>Hikes</span></div>
                     </div>
                 </div>
-            </div>
+           */}
 
             <div className="frame41">
                 <div className="frame41__img"></div>
@@ -158,7 +153,7 @@ export const Results = () => {
                 <div className='slider__title'>More gear you’ll love</div>
 
                 <Swiper
-                    spaceBetween={0}
+                    spaceBetween={-42}
                     slidesPerView={sliders}
                 >
 
@@ -243,6 +238,43 @@ export const Results = () => {
                         </div>
                     </div>
 
+                    <div className='option1__slider1'>
+                        <div className='option1__frame36'>
+                            <div className='option1__slider__bg'>
+                                <div className='option1__slider__img'><div className='button'>
+                                    <div className="button__text">Choose Color</div>
+                                </div></div>
+
+                            </div>
+                        </div>
+                        <div className='option1__content__slider'>
+                            <div className="top">
+                                <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                <div className='top__text2'>$33</div>
+                            </div>
+                            {/* <div className="text3">Great for <span className='hikes'>Climbing</span></div> */}
+                        </div>
+                    </div>
+                </div>
+                <div className="slider__division">
+                    <div className='option1__slider1'>
+                        <div className='option1__frame36'>
+                            <div className='option1__slider__bg'>
+                                <div className='option1__slider__img'><div className='button'>
+                                    <div className="button__text">Choose Color</div>
+                                </div></div>
+
+                            </div>
+                        </div>
+                        <div className='option1__content__slider'>
+                            <div className="top">
+                                <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                <div className='top__text2'>$33</div>
+                            </div>
+                            {/* <div className="text3">Great for <span className='hikes'>Climbing</span></div> */}
+                        </div>
+                    </div>
+
                     <div className="frame81">
                         <div className="frame30">
                             <div className='frame30__text'>Looking for something else?</div>
@@ -252,6 +284,7 @@ export const Results = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <div className="frame80">

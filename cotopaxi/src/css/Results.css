@@ -655,8 +655,6 @@ header {
     flex-direction: column;
     gap: 16px;
     margin: 0 16px;
-    width: 385px;
-    flex-grow: 1;
 }
 
 .products{
@@ -885,7 +883,8 @@ display: none;
     }
 
     .option1__slider {
-     
+        width: 385px;
+        flex-grow: 1;
     }
 
     .option1__slider__bg {

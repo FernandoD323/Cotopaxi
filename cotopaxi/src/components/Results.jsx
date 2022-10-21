@@ -54,10 +54,10 @@ export const Results = () => {
             <div className="card__products">
                 <div className='option1__slider products clase'>
                     <div className='option1__frame36'>
-                        <div className='option1__slider__bg'>
+                        <div className='option1__slider__bg clase1'>
                             <div className='option1__frame36__match'>
-                                <div className='match__great'>
-                                    another great option for you
+                                <div className='match__great produc1'>
+                                    The best match
                                 </div>
                                 <div className='frame37'>
                                     <div className='frame37__match'>80% match</div>
@@ -71,12 +71,12 @@ export const Results = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='option1__slider__img'>
-                                <div>
-                                    <div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div>
+                            <div className='option1__slider__img clase3'>
+
+                                <div className='button'>
+                                    <div className="button__text">Choose Color</div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -108,12 +108,12 @@ export const Results = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='option1__slider__img'>
-                                <div>
-                                    <div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div>
+                            <div className='option1__slider__img clase3'>
+
+                                <div className='button'>
+                                    <div className="button__text">Choose Color</div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -261,7 +261,6 @@ export const Results = () => {
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
                                 <div className='option1__slider__img'>
-
                                     <div className='button'>
                                         <div className="button__text">Choose Color</div>
                                     </div>
@@ -273,6 +272,7 @@ export const Results = () => {
                             <div className="top">
                                 <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
                                 <div className='top__text2'>$33</div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                             </div>
                             {/* <div className="text3">Great for <span className='hikes'>Climbing</span></div> */}
                         </div>
@@ -291,6 +291,7 @@ export const Results = () => {
                             <div className="top">
                                 <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
                                 <div className='top__text2'>$33</div>
+                                <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                             </div>
                             {/* <div className="text3">Great for <span className='hikes'>Climbing</span></div> */}
                         </div>
@@ -325,17 +326,37 @@ export const Results = () => {
                     </div>
                 </div>
 
-            
 
-         <div className='cards12'>
-            <div className='option1__slider1'>
+
+                <div className="card__products">
+                    <div className='option1__slider products clase'>
                         <div className='option1__frame36'>
-                            <div className='option1__slider__bg'>
-                                <div className='option1__slider__img'><div className='button'>
-                                    <div className="button__text">Choose Color</div>
-                                </div></div>
+                            <div className='option1__slider__bg clase1'>
+                                <div className='option1__frame36__match'>
+                                    <div className='match__great produc1'>
+                                        The best match
+                                    </div>
+                                    <div className='frame37'>
+                                        <div className='frame37__match'>80% match</div>
+                                        <div className='frame37__button'>
+                                            <div className='frame37__button__elipse'>
+                                                <div className='frame37__button__group'>
+                                                    <div className='line1'></div>
+                                                    <div className='line2'></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='option1__slider__img clase3'>
 
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+
+                                </div>
                             </div>
+
                         </div>
                         <div className='option1__content__slider'>
                             <div className="top">
@@ -345,14 +366,34 @@ export const Results = () => {
                             <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
-                    <div className='option1__slider1'>
+                    <div className='option1__slider products'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__slider__img'><div className='button'>
-                                    <div className="button__text">Choose Color</div>
-                                </div></div>
+                                <div className='option1__frame36__match'>
+                                    <div className='match__great'>
+                                        another great option for you
+                                    </div>
+                                    <div className='frame37'>
+                                        <div className='frame37__match'>80% match</div>
+                                        <div className='frame37__button'>
+                                            <div className='frame37__button__elipse'>
+                                                <div className='frame37__button__group'>
+                                                    <div className='line1'></div>
+                                                    <div className='line2'></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='option1__slider__img clase3'>
 
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+
+                                </div>
                             </div>
+
                         </div>
                         <div className='option1__content__slider'>
                             <div className="top">
@@ -362,14 +403,34 @@ export const Results = () => {
                             <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
-                    <div className='option1__slider1'>
+                    <div className='option1__slider products'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__slider__img'><div className='button'>
-                                    <div className="button__text">Choose Color</div>
-                                </div></div>
+                                <div className='option1__frame36__match'>
+                                    <div className='match__great'>
+                                        another great option for you
+                                    </div>
+                                    <div className='frame37'>
+                                        <div className='frame37__match'>80% match</div>
+                                        <div className='frame37__button'>
+                                            <div className='frame37__button__elipse'>
+                                                <div className='frame37__button__group'>
+                                                    <div className='line1'></div>
+                                                    <div className='line2'></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='option1__slider__img clase3'>
 
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+
+                                </div>
                             </div>
+
                         </div>
                         <div className='option1__content__slider'>
                             <div className="top">
@@ -379,9 +440,7 @@ export const Results = () => {
                             <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
-
-
-            </div>
+                </div>
 
             </div>
 

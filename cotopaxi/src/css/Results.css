@@ -95,12 +95,13 @@ header {
     height: 358px; */
 }
 
-.card__products{
+.card__products {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin: 0 26px;
 }
+
 /* .option1__frame36__img {
     width: 323px;
     height: 358px;
@@ -140,9 +141,10 @@ header {
 */
 
 .option1__frame36__match {
-    width: 291px;
+    /* width: cpx; */
     gap: 56px;
     display: flex;
+    margin: 16px auto 0;
 }
 
 .match__great {
@@ -155,6 +157,10 @@ header {
     letter-spacing: 0.01em;
     text-transform: capitalize;
     color: #000000;
+}
+
+.product1 {
+    width: 124px;
 }
 
 .frame37 {
@@ -284,9 +290,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px;
     gap: 8px;
-    /* width: 323px; */
+    max-width: 323px;
     height: 480px;
     margin: 24px auto;
 }
@@ -520,8 +525,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 323px;
-    height: 116px;
 }
 
 .frame61__frame60__text1 {
@@ -599,9 +602,7 @@ header {
 .frame61__frame19__checkbox {
     display: flex;
     gap: 8px;
-    width: 323px;
-    height: 24px;
-    margin: 8px auto 24px;
+   
 }
 
 
@@ -626,12 +627,12 @@ header {
 
 .terms {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
 .slider {
-    margin: 48px auto 0px;
-    /* height: 504px; */
+    margin: 48px auto 0px;     
 }
 
 .slider__title {
@@ -657,7 +658,7 @@ header {
     margin: 0 16px;
 }
 
-.products{
+.products {
     margin: 0;
 }
 
@@ -757,8 +758,16 @@ footer {
     justify-content: center;
 }
 
-.cards12{
-display: none;
+.cards12 {
+    display: none;
+}
+
+.clase1 {
+    height: 358px;
+}
+
+.clase3 {
+    position: absolute;
 }
 
 @media screen and (min-width:768px) {
@@ -779,9 +788,7 @@ display: none;
         line-height: 40px;
     }
 
-    .clase{
-        
-    }
+    .clase {}
 
     .conteiner__options {
         display: flex;
@@ -803,11 +810,12 @@ display: none;
 
     .frame41 {
         height: 360px;
-        width: 830px;
+        /* width: 830px; */
         padding: 24px;
         flex-direction: row;
         max-width: 100%;
         gap: 12px;
+        margin: 48px 0;
     }
 
     .frame41__img {
@@ -824,7 +832,7 @@ display: none;
 
     .frame41__frame40 {
         width: 385px;
-        margin: 60px 0;
+        margin: 36px 0;
         /* margin-right: 28px; */
 
     }
@@ -874,20 +882,25 @@ display: none;
     .slider {
         /* height: 1188px; */
         padding: 32px 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
     }
 
     .slider__title {
         font-size: 32px;
         line-height: 40px;
-        margin: 32px auto 24px;
+        margin: 0
     }
 
     .option1__slider {
         width: 385px;
         flex-grow: 1;
+        max-width: 427px;
     }
 
     .option1__slider__bg {
+        max-width: 427px;
         height: 424px;
     }
 
@@ -896,10 +909,10 @@ display: none;
         height: 334.4px;
         margin: 39px auto 0px;
         background-image: url("/src/assets/svg/Results/tablet/slider-product-1.svg");
-        
+    }
 
-
-
+    .clase3 {
+        position: absolute;
     }
 
     .button {
@@ -998,6 +1011,9 @@ display: none;
         margin: 0 auto;
     }
 
+    .option1__frame36__match {
+        margin: 18px auto 0;
+    }
 
 
     footer {
@@ -1006,9 +1022,9 @@ display: none;
 
 
     .slider__division {
-        display: flex;      
-      gap: 12px;
-       
+        display: flex;
+        gap: 12px;
+
     }
 
     .frame81 {
@@ -1016,22 +1032,27 @@ display: none;
 
     }
 
-    .card__products{
+    .card__products {
         flex-direction: row;
+        gap: 12px;
+        justify-content: center;
+
     }
 
     /* .option1__slider{
         display: none;
     } */
-.slider1{
-display:  none;
+    .slider1 {
+        display: none;
+    }
+
+    .cards12 {
+        display: none;
+    }
+
 }
 
-.cards12{
-    display: none;
-}
-
-}
+/* @media screen and (min-width:1000px) {} */
 
 @media screen and (min-width:1000px) {
 
@@ -1069,11 +1090,11 @@ display:  none;
     .option1__frame36__img1 {}
 
     .frame41 {
-        height: 360px;
-        width: 1126px;
-        padding: 0px;
-        max-width: 100%;
+
+        height: 368px;
+        max-width: 1126px;
         gap: 40px;
+        margin: 56px auto;
     }
 
     .frame41__img {
@@ -1136,7 +1157,7 @@ display:  none;
     .slider {
         /* width: 1361px; */
         padding: 0 26px;
-        height: 574px;
+        /* height: 574px; */
     }
 
     .slider__title {
@@ -1223,11 +1244,12 @@ display:  none;
     .top__text2 {
         text-align: right;
     }
-    .frame61__frame19__checkbox{
+
+    .frame61__frame19__checkbox {
         margin: 0;
     }
 
-    .cards12{
+    .cards12 {
         display: flex;
     }
 

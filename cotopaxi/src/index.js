@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Question3 } from './components/Question3';
 import { Results } from './components/Results';
 
-import './css/Question3.css'
+// import './css/Question3.css'
 import './css/Results.css'
 
 

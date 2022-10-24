@@ -41,13 +41,78 @@ export const Results = () => {
             <header className="header"></header>
 
             <div className="img">
-                <div>
-
+                <div className="bar">
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">1</div>
+                        <div  className='bar__steps__number names__bar'>Gear</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">2</div>
+                        <div  className='bar__steps__number names__bar'>length</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">3</div>
+                        <div  className='bar__steps__number names__bar'>commute</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">4</div>
+                        <div  className='bar__steps__number names__bar'>climate</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">5</div>
+                        <div  className='bar__steps__number names__bar'>use</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">6</div>
+                        <div  className='bar__steps__number names__bar'>shoes</div>
+                    </div>
+                    <div className="bar__steps">
+                        <div className="bar__steps__frame ">
+                            <div className="step1">
+                                <div className='step1__vector'></div>
+                            </div>
+                        </div>
+                        <div className="bar__steps__number state">7</div>
+                        <div  className='bar__steps__number names__bar'>one-of-a-kind</div>
+                    </div>
+                    <div className="bar__line"></div>
                 </div>
+
                 <div className='text'>
                     We found the best bag for you!
                 </div>
             </div>
+
             <div className='text1'>
                 Based on your answers, we’ve handpicked the best bag for your upcoming travels.
             </div>
@@ -328,26 +393,11 @@ export const Results = () => {
 
 
 
-                <div className="card__products">
-                    <div className='option1__slider products clase'>
+                <div className="card__products clasedes">
+                    <div className='option1__slider products slider__card12'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg clase1'>
-                                <div className='option1__frame36__match'>
-                                    <div className='match__great produc1'>
-                                        The best match
-                                    </div>
-                                    <div className='frame37'>
-                                        <div className='frame37__match'>80% match</div>
-                                        <div className='frame37__button'>
-                                            <div className='frame37__button__elipse'>
-                                                <div className='frame37__button__group'>
-                                                    <div className='line1'></div>
-                                                    <div className='line2'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <div className='option1__slider__img clase3'>
 
                                     <div className='button'>
@@ -366,25 +416,10 @@ export const Results = () => {
                             <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
-                    <div className='option1__slider products'>
+                    <div className='option1__slider products slider__card12'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__frame36__match'>
-                                    <div className='match__great'>
-                                        another great option for you
-                                    </div>
-                                    <div className='frame37'>
-                                        <div className='frame37__match'>80% match</div>
-                                        <div className='frame37__button'>
-                                            <div className='frame37__button__elipse'>
-                                                <div className='frame37__button__group'>
-                                                    <div className='line1'></div>
-                                                    <div className='line2'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <div className='option1__slider__img clase3'>
 
                                     <div className='button'>
@@ -403,25 +438,9 @@ export const Results = () => {
                             <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
-                    <div className='option1__slider products'>
+                    <div className='option1__slider products slider__card12'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__frame36__match'>
-                                    <div className='match__great'>
-                                        another great option for you
-                                    </div>
-                                    <div className='frame37'>
-                                        <div className='frame37__match'>80% match</div>
-                                        <div className='frame37__button'>
-                                            <div className='frame37__button__elipse'>
-                                                <div className='frame37__button__group'>
-                                                    <div className='line1'></div>
-                                                    <div className='line2'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div className='option1__slider__img clase3'>
 
                                     <div className='button'>
@@ -437,7 +456,6 @@ export const Results = () => {
                                 <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
                                 <div className='top__text2'>$33</div>
                             </div>
-                            <div className="text3">Great for <span className='hikes'>Climbing</span></div>
                         </div>
                     </div>
                 </div>

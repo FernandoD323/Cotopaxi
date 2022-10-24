@@ -18,7 +18,7 @@ header {
     height: 4.375rem; */
     width: 100%;
     height: 75px;
-    background-image: url("/src/assets/svg/mobile/header.svg");
+    background-image: url("/src/assets/svg/Results/mobile/footer-header/header-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
     /* justify-content: center; */
-    background-image: url("/src/assets/svg/imgs/fondo.svg");
+    background-image: url("/src/assets/svg/Results/mobile/products/fondo.svg");
     width: 100%;
     height: 160px;
     /* background: linear-gradient(181.25deg, rgba(0, 0, 0, 0.68) 10.04%, rgba(0, 0, 0, 0) 41.79%);
@@ -272,6 +272,8 @@ header {
 .frame37__button__group {
     height: 6px;
     width: 6px;
+    display: flex;
+    align-items: center;
 }
 
 .frame37__button__elipse {
@@ -279,6 +281,9 @@ header {
     width: 12px;
     background: #292C2E;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line1 {
@@ -286,6 +291,7 @@ header {
     width: 6px;
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
+    position: absolute;
 }
 
 .line2 {
@@ -304,7 +310,7 @@ header {
     justify-content: center;
     align-items: flex-end;
     margin: 0 auto;
-    margin: 240px auto 0px;
+    margin: 271px auto 0px;
 }
 
 .button__text {
@@ -382,7 +388,7 @@ header {
 .frame41__img {
     width: 100%;
     height: 240px;
-    background-image: url("/src/assets/svg/imgs/Rectangle\ 21.svg");
+    background-image: url("/src/assets/svg/Results/mobile/products/information.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -443,7 +449,7 @@ header {
 .frame79__img {
     height: 235px;
     width: 273px;
-    background-image: url("/src/assets/svg/imgs/image\ 2.svg");
+    background-image: url("/src/assets/svg/Results/mobile/products/logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -758,9 +764,8 @@ header {
 }
 
 .option1__slider__img {
-    height: 257.10943603515625px;
-    width: 188.49432373046875px;
-    background-image: url("/src/assets/svg/imgs/product-image-slider.svg");
+    width: 254.74px;
+    height: 282.35px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -818,7 +823,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .option1__slider1 {
@@ -861,6 +866,31 @@ footer {
     display: none;
 }
 
+.product1 {
+    background-image: url("/src/assets/svg/Results/mobile/products/product1.svg");
+}
+
+.product2 {
+    background-image: url("/src/assets/svg/Results/mobile/products/product2.svg");
+}
+
+.slider__img {
+    width: 188.49px;
+    height: 257.11px;
+}
+
+.product__slider1{
+    background-image: url("/src/assets/svg/Results/mobile/products/product1-slider.svg");
+}
+
+.product__slider2{
+    background-image: url("/src/assets/svg/Results/mobile/products/produc2-slider.svg");
+}
+
+.product__slider3{
+    background-image: url("/src/assets/svg/Results/mobile/products/product3-slider.svg");
+}
+
 @media screen and (min-width:768px) {
 
     header {
@@ -869,6 +899,7 @@ footer {
     }
 
     .img {
+        background-image: url("/src/assets/svg/Results/tablet/products/fondo.svg");
         height: 296px;
     }
 
@@ -917,7 +948,7 @@ footer {
         gap: 12px;
         margin: 0 26px;
     }
- 
+
 
     .frame41 {
         height: 360px;
@@ -932,14 +963,12 @@ footer {
     .frame41__img {
         height: 312px;
         width: 385px;
+        background-image: url("/src/assets/svg/Results/tablet/products/information.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
-    .frame41__img {
-        gap: 16px
-    }
 
     .frame41__frame40 {
         width: 385px;
@@ -1124,7 +1153,7 @@ footer {
 
     .option1__frame36__match {
         margin: 18px auto 0;
-        
+
     }
 
 
@@ -1153,6 +1182,14 @@ footer {
 
     }
 
+    .product1{
+        background-image: url("/src/assets/svg/Results/tablet/products/product1.svg");
+    }
+
+    .product2{
+        background-image: url("/src/assets/svg/Results/tablet/products/product2.svg");
+    }
+
     /* .option1__slider{
         display: none;
     } */
@@ -1167,6 +1204,18 @@ footer {
     .frame81 {
         margin: 0;
     }
+
+    .frame79__img{
+        background-image: url("/src/assets/svg/Results/tablet/products/logo.svg");
+    }
+
+    .product2__slider{
+        background-image: url("/src/assets/svg/Results/tablet/products/product2-slider.svg");
+    }
+
+    .product3__slider{
+        background-image: url("/src/assets/svg/Results/tablet/products/product3-slider.svg");
+    }
 }
 
 /* @media screen and (min-width:1000px) {} */
@@ -1179,6 +1228,7 @@ footer {
     }
 
     .img {
+        background-image: url("/src/assets/svg/Results/deskop/products/fondo.svg");
         height: 311px;
     }
 
@@ -1235,13 +1285,12 @@ footer {
     }
 
     .frame41__img {
+        background-image: url("/src/assets/svg/Results/deskop/products/information.svg");
         width: 543px;
         height: 368px;
     }
 
-    /* .frame41__img {
-        gap: 16px
-    } */
+
 
     .frame41__frame40 {
         gap: 16px;
@@ -1316,10 +1365,6 @@ footer {
         width: 303.64px;
         height: 334.4px;
         margin: 39px auto 0px;
-        background-image: url("/src/assets/svg/Results/tablet/slider-product-1.svg");
-
-
-
     }
 
     .button {
@@ -1394,6 +1439,28 @@ footer {
     .slider__card12 {
         width: 200px;
 
+    }
+    .product1 {
+        background-image: url("/src/assets/svg/Results/mobile/products/product1.svg");
+      }
+
+    .product2 {
+        background-image: url("/src/assets/svg/Results/deskop/products/product2.svg");
+      }
+
+    .frame79__img{
+        background-image: url("/src/assets/svg/Results/deskop/products/logo.svg");
+    }
+    .product1__slider_des{
+        background-image: url("/src/assets/svg/Results/deskop/products/product1-slider.svg");
+    }
+
+    .product2__slider_des{
+        background-image: url("/src/assets/svg/Results/deskop/products/product2-slider.svg");
+    }
+
+    .product3__slider_des{
+        background-image: url("/src/assets/svg/Results/deskop/products/product3-slider.svg");
     }
 
     footer {

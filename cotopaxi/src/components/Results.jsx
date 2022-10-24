@@ -49,7 +49,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">1</div>
-                        <div  className='bar__steps__number names__bar'>Gear</div>
+                        <div className='bar__steps__number names__bar'>Gear</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -58,7 +58,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">2</div>
-                        <div  className='bar__steps__number names__bar'>length</div>
+                        <div className='bar__steps__number names__bar'>length</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -67,7 +67,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">3</div>
-                        <div  className='bar__steps__number names__bar'>commute</div>
+                        <div className='bar__steps__number names__bar'>commute</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -76,7 +76,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">4</div>
-                        <div  className='bar__steps__number names__bar'>climate</div>
+                        <div className='bar__steps__number names__bar'>climate</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -85,7 +85,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">5</div>
-                        <div  className='bar__steps__number names__bar'>use</div>
+                        <div className='bar__steps__number names__bar'>use</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -94,7 +94,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">6</div>
-                        <div  className='bar__steps__number names__bar'>shoes</div>
+                        <div className='bar__steps__number names__bar'>shoes</div>
                     </div>
                     <div className="bar__steps">
                         <div className="bar__steps__frame ">
@@ -103,7 +103,7 @@ export const Results = () => {
                             </div>
                         </div>
                         <div className="bar__steps__number state">7</div>
-                        <div  className='bar__steps__number names__bar'>one-of-a-kind</div>
+                        <div className='bar__steps__number names__bar'>one-of-a-kind</div>
                     </div>
                     <div className="bar__line"></div>
                 </div>
@@ -136,7 +136,7 @@ export const Results = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='option1__slider__img clase3'>
+                            <div className='option1__slider__img clase3 product1'>
 
                                 <div className='button'>
                                     <div className="button__text">Choose Color</div>
@@ -156,7 +156,7 @@ export const Results = () => {
                 </div>
                 <div className='option1__slider products'>
                     <div className='option1__frame36'>
-                        <div className='option1__slider__bg'>
+                        <div className='option1__slider__bg clase1'>
                             <div className='option1__frame36__match'>
                                 <div className='match__great'>
                                     another great option for you
@@ -173,7 +173,7 @@ export const Results = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='option1__slider__img clase3'>
+                            <div className='option1__slider__img clase3 product2'>
 
                                 <div className='button'>
                                     <div className="button__text">Choose Color</div>
@@ -263,9 +263,11 @@ export const Results = () => {
                         <div className='option1__slider slider1'>
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
-                                    <div className='option1__slider__img'><div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div></div>
+                                    <div className='option1__slider__img slider__img product__slider1'>
+                                        <div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -282,9 +284,11 @@ export const Results = () => {
                         <div className='option1__slider slider1'>
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
-                                    <div className='option1__slider__img'><div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div></div>
+                                    <div className='option1__slider__img slider__img product__slider2'>
+                                        <div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -303,9 +307,11 @@ export const Results = () => {
                         <div className='option1__slider slider1'>
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
-                                    <div className='option1__slider__img'><div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div></div>
+                                    <div className='option1__slider__img slider__img product__slider3'>
+                                        <div className='button'>
+                                            <div className="button__text">Choose Color</div>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -346,9 +352,11 @@ export const Results = () => {
                     <div className='option1__slider1'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__slider__img'><div className='button'>
+                                <div className='option1__slider__img product2__slider'>
+                                    <div className='button'>
                                     <div className="button__text">Choose Color</div>
-                                </div></div>
+                                </div>
+                                </div>
 
                             </div>
                         </div>
@@ -366,9 +374,11 @@ export const Results = () => {
                     <div className='option1__slider1'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-                                <div className='option1__slider__img'><div className='button'>
+                                <div className='option1__slider__img product3__slider'>
+                                    <div className='button'>
                                     <div className="button__text">Choose Color</div>
-                                </div></div>
+                                </div>
+                                </div>
 
                             </div>
                         </div>
@@ -398,7 +408,29 @@ export const Results = () => {
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg clase1'>
 
-                                <div className='option1__slider__img clase3'>
+                                <div className='option1__slider__img clase3 product1__slider_des'>
+
+                                    <div className='button'>
+                                        <div className="button__text">Choose Color</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='option1__content__slider'>
+                            <div className="top">
+                                <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
+                                <div className='top__text2'>$33</div>
+                            </div>
+                            <div className="text3">Great for <span className='hikes'>Climbing</span></div>
+                        </div>
+                    </div>
+                    <div className='option1__slider products slider__card12'>
+                        <div className='option1__frame36'>
+                            <div className='option1__slider__bg '>
+
+                                <div className='option1__slider__img clase3 product2__slider_des'>
 
                                     <div className='button'>
                                         <div className="button__text">Choose Color</div>
@@ -419,29 +451,7 @@ export const Results = () => {
                     <div className='option1__slider products slider__card12'>
                         <div className='option1__frame36'>
                             <div className='option1__slider__bg'>
-
-                                <div className='option1__slider__img clase3'>
-
-                                    <div className='button'>
-                                        <div className="button__text">Choose Color</div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='option1__content__slider'>
-                            <div className="top">
-                                <div className='top__text1'>Halcon Chalk Bag - Del Día</div>
-                                <div className='top__text2'>$33</div>
-                            </div>
-                            <div className="text3">Great for <span className='hikes'>Climbing</span></div>
-                        </div>
-                    </div>
-                    <div className='option1__slider products slider__card12'>
-                        <div className='option1__frame36'>
-                            <div className='option1__slider__bg'>
-                                <div className='option1__slider__img clase3'>
+                                <div className='option1__slider__img clase3 product3__slider_des'>
 
                                     <div className='button'>
                                         <div className="button__text">Choose Color</div>

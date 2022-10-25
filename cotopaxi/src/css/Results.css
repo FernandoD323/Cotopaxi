@@ -879,15 +879,15 @@ footer {
     height: 257.11px;
 }
 
-.product__slider1{
+.product__slider1 {
     background-image: url("/src/assets/svg/Results/mobile/products/product1-slider.svg");
 }
 
-.product__slider2{
+.product__slider2 {
     background-image: url("/src/assets/svg/Results/mobile/products/produc2-slider.svg");
 }
 
-.product__slider3{
+.product__slider3 {
     background-image: url("/src/assets/svg/Results/mobile/products/product3-slider.svg");
 }
 
@@ -1182,11 +1182,11 @@ footer {
 
     }
 
-    .product1{
+    .product1 {
         background-image: url("/src/assets/svg/Results/tablet/products/product1.svg");
     }
 
-    .product2{
+    .product2 {
         background-image: url("/src/assets/svg/Results/tablet/products/product2.svg");
     }
 
@@ -1205,15 +1205,15 @@ footer {
         margin: 0;
     }
 
-    .frame79__img{
+    .frame79__img {
         background-image: url("/src/assets/svg/Results/tablet/products/logo.svg");
     }
 
-    .product2__slider{
+    .product2__slider {
         background-image: url("/src/assets/svg/Results/tablet/products/product2-slider.svg");
     }
 
-    .product3__slider{
+    .product3__slider {
         background-image: url("/src/assets/svg/Results/tablet/products/product3-slider.svg");
     }
 }
@@ -1342,13 +1342,10 @@ footer {
 
     .slider {
         padding: 0;
-        margin: 0 40px;
+        margin: 74px 40px 0;
+        gap: 40px;
     }
 
-    .slider__title {
-
-        margin: 74px auto 48px;
-    }
 
     .option1__slider {
         width: 385px;
@@ -1440,26 +1437,28 @@ footer {
         width: 200px;
 
     }
+
     .product1 {
         background-image: url("/src/assets/svg/Results/mobile/products/product1.svg");
-      }
+    }
 
     .product2 {
         background-image: url("/src/assets/svg/Results/deskop/products/product2.svg");
-      }
+    }
 
-    .frame79__img{
+    .frame79__img {
         background-image: url("/src/assets/svg/Results/deskop/products/logo.svg");
     }
-    .product1__slider_des{
+
+    .product1__slider_des {
         background-image: url("/src/assets/svg/Results/deskop/products/product1-slider.svg");
     }
 
-    .product2__slider_des{
+    .product2__slider_des {
         background-image: url("/src/assets/svg/Results/deskop/products/product2-slider.svg");
     }
 
-    .product3__slider_des{
+    .product3__slider_des {
         background-image: url("/src/assets/svg/Results/deskop/products/product3-slider.svg");
     }
 

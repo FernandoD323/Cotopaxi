@@ -264,7 +264,7 @@ export const Results = () => {
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
                                     <div className='option1__slider__img slider__img product__slider1'>
-                                        <div className='button'>
+                                        <div className='button button__slider'>
                                             <div className="button__text">Choose Color</div>
                                         </div>
                                     </div>
@@ -285,7 +285,7 @@ export const Results = () => {
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
                                     <div className='option1__slider__img slider__img product__slider2'>
-                                        <div className='button'>
+                                        <div className='button button__slider'>
                                             <div className="button__text">Choose Color</div>
                                         </div>
                                     </div>
@@ -308,7 +308,7 @@ export const Results = () => {
                             <div className='option1__frame36'>
                                 <div className='option1__slider__bg'>
                                     <div className='option1__slider__img slider__img product__slider3'>
-                                        <div className='button'>
+                                        <div className='button button__slider'>
                                             <div className="button__text">Choose Color</div>
                                         </div>
                                     </div>

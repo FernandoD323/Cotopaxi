@@ -313,6 +313,10 @@ header {
     margin: 271px auto 0px;
 }
 
+.button__slider{
+    margin: 239px auto 0px;
+}
+
 .button__text {
     font-family: "Mont";
     font-size: 13px;
@@ -504,7 +508,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
-    /* width: 323px; */
+    width: 323px;
     /* height: 40px; */
     background: #292C2E;
 }
@@ -686,9 +690,13 @@ header {
     line-height: 18px;
     text-align: left;
     color: #77787A;
+    width: 61px;
+    height: 18px;
+    margin: 12px 0 16px 12px;
 }
 
 .frame61__frame19__checkbox {
+    height: 24px;
     display: flex;
     gap: 8px;
 
